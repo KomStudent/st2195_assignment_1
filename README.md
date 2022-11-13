@@ -1,5 +1,5 @@
 ---
-title: ST2195 Practice Assignment \#1
+title: ST2195 Practice Assignment #1
 author: Karl Munroe
 date: 10 November 2022
 ---
