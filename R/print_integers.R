@@ -3,8 +3,6 @@
 # ST2195
 # Assignment 1 part a)
 
-#Begin Script
-
 #use the seq() function to generate number sequence
 
 seq(from=1,to=10)
