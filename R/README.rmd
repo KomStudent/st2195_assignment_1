@@ -1,7 +1,7 @@
 ---
-title: Description of Solution
-author: Karl Munroe
-date: November 13, 2022
+title: "Description of Solution"
+author: "Karl Munroe"
+date: "November 13, 2022"
 ---
 
 # Assignment solution to print integers 1 to 10
@@ -40,7 +40,7 @@ counter = 0
 #loop to generate the output
 for i in range(10):
     counter = i + 1 # i will start at 0
-    strNumList = strNumList + str(counter) + " " # convert int to str and aapend
+    strNumList = strNumList + str(counter) + " "
 print(strNumList) # print the list
 
 #end code
