@@ -122,45 +122,41 @@ integers 1 to 10
 
 \begin{Shaded}
 \begin{Highlighting}[]
+\CommentTok{\# R Script to print Integers 1 to 10 (including 1 and 10)}
+\CommentTok{\# Munroe\_Karl}
+\CommentTok{\# ST2195}
+\CommentTok{\# Assignment 1 part a)}
 
-\NormalTok{\# R Script to print Integers 1 to 10 (including 1 and 10)}
-\NormalTok{\# Munroe\_Karl}
-\NormalTok{\# ST2195}
-\NormalTok{\# Assignment 1 part a)}
+\CommentTok{\#use the seq() function to generate number sequence}
 
-\NormalTok{\#use the seq() function to generate number sequence}
-
-\NormalTok{seq(from=1,to=10)}
+\FunctionTok{seq}\NormalTok{(}\AttributeTok{from=}\DecValTok{1}\NormalTok{,}\AttributeTok{to=}\DecValTok{10}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+##  [1]  1  2  3  4  5  6  7  8  9 10
+\end{verbatim}
 
 \hypertarget{python-code}{%
 \subsubsection{Python Code}\label{python-code}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{"""}
-\NormalTok{title: ST2195 Assignment 1}
-\NormalTok{author: Karl Munroe}
-\NormalTok{Date: November 11, 2022}
 
-\NormalTok{"""}
+\CommentTok{\#init variables}
+\NormalTok{strNumList }\OperatorTok{=} \StringTok{""}
+\NormalTok{counter }\OperatorTok{=} \DecValTok{0}
 
-\NormalTok{\#begin code}
-
-\NormalTok{\#init variables}
-\NormalTok{strNumList = ""}
-\NormalTok{counter = 0}
-
-\NormalTok{\#loop to generate the output}
-\NormalTok{for i in range(10):}
-\NormalTok{    counter = i + 1 \# i will start at 0}
-\NormalTok{    strNumList = strNumList + str(counter) + " " \# convert int to str and aapend}
-\NormalTok{print(strNumList) \# print the list}
-
-\NormalTok{\#end code}
+\CommentTok{\#loop to generate the output}
+\ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\DecValTok{10}\NormalTok{):}
+\NormalTok{    counter }\OperatorTok{=}\NormalTok{ i }\OperatorTok{+} \DecValTok{1} \CommentTok{\# i will start at 0}
+\NormalTok{    strNumList }\OperatorTok{=}\NormalTok{ strNumList }\OperatorTok{+} \BuiltInTok{str}\NormalTok{(counter) }\OperatorTok{+} \StringTok{" "}
+\BuiltInTok{print}\NormalTok{(strNumList) }\CommentTok{\# print the list}
 \end{Highlighting}
 \end{Shaded}
 
+\begin{verbatim}
+## 1 2 3 4 5 6 7 8 9 10
+\end{verbatim}
 
 \end{document}

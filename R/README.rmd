@@ -2,6 +2,7 @@
 title: "Description of Solution"
 author: "Karl Munroe"
 date: "November 13, 2022"
+output: pdf_document
 ---
 
 # Assignment solution to print integers 1 to 10

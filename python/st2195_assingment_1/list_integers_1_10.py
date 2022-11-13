@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-title: ST2195 Assignment 1
-author: Karl Munroe
-Date: November 11, 2022
 
-"""
-
-#begin code
 
 #init variables
 strNumList = ""
